@@ -54,6 +54,8 @@ sudo chmod 755 $CONSULCONFIGDIR
 sudo mkdir -p $CONSULDIR
 sudo chmod 755 $CONSULDIR
 sudo mv /tmp/consul.service /etc/systemd/system/consul.service
+sudo mv /tmp/install-consul-config /opt/install-consul-config
+sudo chmod +x /opt/install-consul-config
 
 echo "Install Vault"
 curl -fsL -o /tmp/vault.zip $VAULTDOWNLOAD
@@ -67,6 +69,8 @@ sudo chmod 755 $VAULTCONFIGDIR
 sudo mkdir -p $VAULTDIR
 sudo chmod 755 $VAULTDIR
 sudo mv /tmp/vault.service /etc/systemd/system/vault.service
+sudo mv /tmp/install-vault-config /opt/install-vault-config
+sudo chmod +x /opt/install-vault-config
 
 echo "Configure Nomad"
 sudo mkdir -p $NOMADCONFIGDIR
@@ -76,6 +80,8 @@ sudo chmod 755 $NOMADDIR
 sudo mkdir -p $NOMADPLUGINDIR
 sudo chmod 755 $NOMADPLUGINDIR
 sudo mv /tmp/nomad.service /etc/systemd/system/nomad.service
+sudo mv /tmp/install-nomad-config /opt/install-nomad-config
+sudo chmod +x /opt/install-nomad-config
 
 echo "Install Nomad"
 sudo mv /tmp/install-nomad /opt/install-nomad

@@ -1,0 +1,6 @@
+#!/bin/bash
+set -e
+
+sudo mkdir -p /etc/vault.d
+sudo cp /tmp/vault-* /etc/vault.d/
+sudo systemctl restart vault

@@ -50,6 +50,16 @@
       "destination": "/opt/install-nomad.ps1"
     },
     {
+      "type": "file",
+      "source": "./windows/install-nomad-config.ps1",
+      "destination": "/opt/install-nomad-config.ps1"
+    },
+    {
+      "type": "file",
+      "source": "./windows/install-consul-config.ps1",
+      "destination": "/opt/install-consul-config.ps1"
+    },
+    {
       "type": "powershell",
       "elevated_user": "Administrator",
       "elevated_password": "{{.WinRMPassword}}",

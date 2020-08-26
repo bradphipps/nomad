@@ -1,0 +1,6 @@
+#!/bin/bash
+set -e
+
+sudo mkdir -p /etc/nomad.d
+sudo cp /tmp/nomad-* /etc/nomad.d/
+sudo systemctl is-active nomad && sudo systemctl restart nomad

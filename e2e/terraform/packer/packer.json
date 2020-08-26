@@ -21,6 +21,21 @@
     },
     {
       "type": "file",
+      "source": "./linux/install-nomad-config",
+      "destination": "/tmp/install-nomad-config"
+    },
+    {
+      "type": "file",
+      "source": "./linux/install-consul-config",
+      "destination": "/tmp/install-consul-config"
+    },
+    {
+      "type": "file",
+      "source": "./linux/install-vault-config",
+      "destination": "/tmp/install-vault-config"
+    },
+    {
+      "type": "file",
       "source": "./linux/nomad.service",
       "destination": "/tmp/nomad.service"
     },
