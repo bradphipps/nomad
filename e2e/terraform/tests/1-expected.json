@@ -1,0 +1,48 @@
+{
+  "configs": {
+    "nomad_client_linux[0]": [
+      "config/dev-cluster/nomad/base.hcl",
+      "config/dev-cluster/nomad/client-linux/client.hcl"
+    ],
+    "nomad_client_linux[1]": [
+      "config/dev-cluster/nomad/base.hcl",
+      "config/dev-cluster/nomad/client-linux/client.hcl"
+    ],
+    "nomad_client_linux[2]": [
+      "config/dev-cluster/nomad/base.hcl",
+      "config/dev-cluster/nomad/client-linux/client.hcl"
+    ],
+    "nomad_client_linux[3]": [
+      "config/dev-cluster/nomad/base.hcl",
+      "config/dev-cluster/nomad/client-linux/client.hcl"
+    ],
+    "nomad_client_windows[0]": [
+      "config/dev-cluster/nomad/base.hcl",
+      "config/dev-cluster/nomad/client-windows/client-windows.hcl"
+    ],
+    "nomad_server[0]": [
+      "config/dev-cluster/nomad/base.hcl",
+      "config/dev-cluster/nomad/server/server.hcl"
+    ],
+    "nomad_server[1]": [
+      "config/dev-cluster/nomad/base.hcl",
+      "config/dev-cluster/nomad/server/server.hcl"
+    ],
+    "nomad_server[2]": [
+      "config/dev-cluster/nomad/base.hcl",
+      "config/dev-cluster/nomad/server/server.hcl"
+    ]
+  },
+  "installed_binary": {},
+  "installed_sha": {},
+  "installed_version": {
+    "nomad_client_linux[0]": "0.12.1",
+    "nomad_client_linux[1]": "0.12.1",
+    "nomad_client_linux[2]": "0.12.1",
+    "nomad_client_linux[3]": "0.12.1",
+    "nomad_client_windows[0]": "0.12.1",
+    "nomad_server[0]": "0.12.1",
+    "nomad_server[1]": "0.12.1",
+    "nomad_server[2]": "0.12.1"
+  }
+}
